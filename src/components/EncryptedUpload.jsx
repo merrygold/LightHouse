@@ -36,7 +36,7 @@ function EncryptedUpload() {
         const response = await lighthouse.uploadEncrypted(
           e,
           sig.publicKey,
-          "4d7a0a31-72e4-4363-93c7-f6cc0d7e4a21",
+          "API_KEY",
           sig.signedMessage,
           progressCallback
         );
