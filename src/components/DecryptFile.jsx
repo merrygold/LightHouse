@@ -20,7 +20,7 @@ function DecryptFile() {
   /* Decrypt file */
   const decrypt = async() =>{
     // Fetch file encryption key
-    const cid = "QmUjLQjfVCtauC8NCiupioiqvVyRDgdcV6hiXRGsnmdVnPG"; //replace with your IPFS CID
+    const cid = "QmUjLQjfVCtau8NCiupioiqvVyRDgdcV6hiXRGsnmdVnPG"; //replace with your IPFS CID
     const {publicKey, signedMessage} = await sign_auth_message();
     console.log(signedMessage)
     /*

@@ -11,7 +11,7 @@ function SimpleUpload() {
     
       const deploy = async(e) =>{
         // Push file to lighthouse node
-        const output = await lighthouse.upload(e, "4d7a0a31-72e4-4363-93c7-f6cc0d7e4a21", progressCallback);
+        const output = await lighthouse.upload(e, "API_KEY", progressCallback);
         console.log('File Status:', output);
         /*
           output:
